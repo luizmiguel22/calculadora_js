@@ -18,7 +18,7 @@ body {
     display: flex;
     height: 28.125rem;
     width: 18.75rem;
-    background-color: #0081a7;
+    background-color: #5e60ce;
     margin: 0;
     padding: 1rem;
     flex-direction: column;
@@ -37,6 +37,7 @@ body {
     padding: 0.5rem;
     border: 1px solid #ccc;
     font-size: 0.8rem;
+    border-radius: 3px;
 }
 
 #resultado {
@@ -49,7 +50,8 @@ body {
 }
 #oi{width: 30%;
 display: flex;
-    justify-content: center;}
+    justify-content: center;
+}
 #bo{display: flex;
 justify-content: center;
 margin-top: 0.625rem;}
@@ -60,6 +62,7 @@ display: flex;
     justify-content: center;
     align-items: center;
     height: 34rem;
+    background-color: #4a4e69;
 }
 #primeiro{text-align: center;
 margin-bottom:2.5rem ;
