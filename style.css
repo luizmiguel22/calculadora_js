@@ -1,12 +1,11 @@
 #tudo {
     margin: 0;
     padding: 0;
-    background: rgb(134, 193, 0);
-    background: linear-gradient(90deg, rgba(134, 193, 0, 1) 24%, rgba(0, 212, 255, 1) 85%);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #231942;
 }
 
 body {
@@ -25,7 +24,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
-
+    margin-top: 0.625rem;
 }
 
 #num1,
@@ -37,7 +36,7 @@ body {
     margin-top: 0.625rem;
     padding: 0.5rem;
     border: 1px solid #ccc;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 #resultado {
@@ -54,3 +53,14 @@ display: flex;
 #bo{display: flex;
 justify-content: center;
 margin-top: 0.625rem;}
+
+#borda{border: 6px solid #fca311;
+width: 25rem;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34rem;
+}
+#primeiro{text-align: center;
+margin-bottom:2.5rem ;
+;}
