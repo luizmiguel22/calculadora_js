@@ -17,8 +17,8 @@ body {
 #calculadora {
     border: 10px solid ;
     display: flex;
-    height: 28.125rem;
-    width: 18.75rem;
+    height: 25.125rem;
+    width: 15.75rem;
     background-color: #5e60ce;
     margin: 0;
     padding: 1rem;
@@ -54,18 +54,22 @@ body {
 #oi{width: 30%;
 display: flex;
     justify-content: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 #bo{display: flex;
 justify-content: center;
-margin-top: 0.625rem;}
+margin-top: 0.625rem;
+
+}
 
 #borda{border: 6px solid #fca311;
-width: 25rem;
+width: 20rem;
 display: flex;
     justify-content: center;
     align-items: center;
-    height: 34rem;
+    height: 33rem;
     background-color: #4a4e69;
+    border-radius: 1rem;
 }
 #primeiro{text-align: center;
 margin-bottom:2.5rem 
@@ -79,3 +83,9 @@ width: 30%;
 font-size: 20px;
 background-color: #b7e4c7;
 color: #333d29;}
+
+#oi:hover {
+    background-color: #543d97;
+    color: #b7e4c7;
+    transform: scale(1.1);
+}
