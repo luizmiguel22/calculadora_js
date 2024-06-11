@@ -16,7 +16,12 @@
                 <form id="calcForm" onsubmit="return false;">
                     <input type="number" name="num1" placeholder="Digite o primeiro número" id="num1">
                     <input type="number" name="num2" placeholder="Digite o segundo número" id="num2">
-                    <input type="text" id="ope" placeholder="Escolha uma operação '+,-,x ou /'">
+                   <select name="" id="ope">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">x</option>
+                    <option value="/">/</option>
+                   </select>
                     <div id="bo"><input type="button" value="Calcular" onclick="calcular()" id="oi"></div>
                 </form>
                 <p id="resultado">Resultado</p>
